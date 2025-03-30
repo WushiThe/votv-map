@@ -1,4 +1,4 @@
-const mapSize = 1489.995 // Size of the map using game units
+const mapSize = 14899.95 // Size of the map using game units
 const bounds = [[0, 0], [mapSize, mapSize]]
 
 // Overriding leaflet's automatic renderer choice
@@ -40,4 +40,4 @@ function mapsizecheck() {
 }
 window.addEventListener('resize', mapsizecheck)
 mapsizecheck()
-map.fitBounds(bounds, {padding: [19.5, 19.5]})
+map.fitBounds(bounds, {padding: [195.0, 195.0]})
