@@ -19,7 +19,7 @@ var map = L.map('map_element', {
     maxZoom: 100,
     minZoom: -100,
     attributionControl: false,
-    zoomControl: false,
+    zoomControl: true,
     zoomDelta: 1,
     zoomSnap: 0,
     layers: [],
