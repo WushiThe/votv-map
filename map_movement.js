@@ -1,4 +1,4 @@
-const mapSize = 14899.95 // Size of the map using game units
+const mapSize = 1489.995 // Size of the map using game units
 const bounds = [[0, 0], [mapSize, mapSize]]
 
 // Overriding leaflet's automatic renderer choice
