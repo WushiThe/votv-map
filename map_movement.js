@@ -17,7 +17,7 @@ if (L.Browser.svg) {
 var map = L.map('map_element', {
     crs: L.CRS.Simple,
     maxZoom: 100,
-    minZoom: -1,
+    minZoom: -100,
     attributionControl: false,
     zoomControl: false,
     zoomDelta: 1,
@@ -33,9 +33,9 @@ L.imageOverlay('map-264888.webp', bounds).addTo(map)
 //  Changes min zoom to of the map to -2 if the viewport gets too small
 function mapsizecheck() {
     if (document.documentElement.clientWidth < 650 || document.documentElement.clientHeight < 500) {
-        map.setMinZoom(-2)
+        map.setMinZoom(-200)
     } else {
-        map.setMinZoom(-1)
+        map.setMinZoom(-100)
     }
 }
 window.addEventListener('resize', mapsizecheck)
