@@ -16,7 +16,7 @@ if (L.Browser.svg) {
 
 var map = L.map('map_element', {
     crs: L.CRS.Simple,
-    maxZoom: 2.6,
+    maxZoom: 100,
     minZoom: -1,
     attributionControl: false,
     zoomControl: false,
